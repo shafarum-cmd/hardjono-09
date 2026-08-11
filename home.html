@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardjono 09 - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            HARDJONO 09
+        </div>
+        <div class="nav-links">
+            <a href="home.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="article.html">ARTICLE</a>
+            <a href="after-event.html">AFTER EVENT</a>
+        </div>
+        <button id="themeToggle">
+            Dark Mode
+        </button>
+    </nav>
+    <main>
+        <section class="home-section">
+            <div class="home-content">
+                <p class="home-subtitle">
+                    WELCOME TO
+                </p>
+                <h1>
+                    HARDJONO 09
+                </h1>
+                <p id="greeting">
+                    Selamat Datang!
+                </p>
+                <p id="currentTime">
+                </p>
+                <a href="#message-section" class="main-button">
+                    LEAVE US A MESSAGE
+                </a>
+            </div>
+        </section>
+        <!-- Kesan & Pesan -->
+        <section id="message-section" class="message-section">
+            <div class="message-card">
+                <h2>
+                    KESAN & PESAN
+                </h2>
+                <form id="todoForm">
+                    <input
+                        type="text"
+                        id="todoInput"
+                        placeholder="Tulis kesan dan pesanmu..."
+                        required
+                    >
+                    <button type="submit">
+                        SEND
+                    </button>
+                </form>
+                <ul id="todoList"></ul>
+                <p id="todoEmpty" class="empty-message">
+                    Belum ada kesan dan pesan.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>
+            HARDJONO 09
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
